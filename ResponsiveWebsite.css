@@ -7,6 +7,7 @@
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
+    
   }
   
   /* Style the links inside the navigation bar */
@@ -44,7 +45,7 @@
 @media screen and (max-width: 600px) {
   .topnav a {
     display: none;
-  }
+    }
   .topnav a.icon {
     float: left;
     display: block;
@@ -63,6 +64,7 @@
     float: none;
     display: block;
     text-align: left;
+    position: fixed;
   }
 }
 
@@ -87,4 +89,93 @@ padding-top: 1.8%;
 margin-right: 0%;
 margin-top: 0%;
 width: 100%;
+}
+
+
+/*vanaf hier begint de slideshow*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  background-color: #1a1917;
+  font-size: 25px;
+  font-family: 'Archivo', sans-serif;
+  padding: 8px 12px;
+  position: absolute;
+  margin-left: 35%;
+  bottom: 4.5%;
+  width: 30%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  bottom: 25px;
+  height: 4px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 10%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: white;
+}
+
+.active2 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.paragraphtitles{
+  margin-left: 19.5%;
+  font-family: 'Archivo', sans-serif;
+}
+
+.paragraphlines{
+  margin-left: 19.5%;
+  font-family: 'Archivo', sans-serif;
+}
+
+.paragraphtexts{
+  margin-left: 19.5%;
+  font-family: 'Archivo', sans-serif;
 }
