@@ -1,6 +1,7 @@
 /* Add a black background color to the top navigation */
 *{margin: 0;
-  padding: 0;}
+  padding: 0;
+  font-family: 'Archivo', sans-serif;}
 
 .topnav {
     background-color: #333;
@@ -165,17 +166,71 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-.paragraphtitles{
-  margin-left: 19.5%;
+.line{
+  background-color: lightgray;  
+  height: 0.1em;
+  margin-top: 1.2em;
+  
+}
+
+.blok1{
+  max-width: 25em;
+  margin-left: 5%;
+
+  display: inline-block;
+}
+
+.line2{
+  background-color: lightgray;  
+  height: 0.1em;
+  margin-top: 1.2em;
+  
+}
+
+.blok2{
+  max-width: 25em;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.line3{
+  background-color: lightgray;  
+  height: 0.1em;
+  margin-top: 1.2em;
+  
+}
+
+.blok3{
+  max-width: 25em;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+#buy{
+  font-size: 1.2em;
+}
+
+
+#winter{
+  font-size: 1.2em;
+}
+
+#doctor{
+  font-size: 1.2em;
+}
+
+p{
   font-family: 'Archivo', sans-serif;
 }
 
-.paragraphlines{
-  margin-left: 19.5%;
-  font-family: 'Archivo', sans-serif;
+#buybutton{
+ width: 50%;
+ border-color: #2e2c25;
+ background-color: #2e2c25;
+ color: white;
+  
 }
-
-.paragraphtexts{
-  margin-left: 19.5%;
-  font-family: 'Archivo', sans-serif;
+#video{
+  align-items: center;
+  justify-content: center;
 }
